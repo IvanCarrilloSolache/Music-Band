@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import './Navbar.css';
 
 class NavBar extends Component {
     render() {
         return (
-            <header>
-                <nav>
+            <header className="navbar">
+                <nav className="navigationBar">
                     <div></div>
-                    <div><a href="/">LOGO</a></div>
-                    <div>
+                    <div className="navbarLogo"><a href="/">LOGO</a></div>
+                    <div className="navbarItems">
                         <ul>
                             <li><a href="/">BAND</a></li>
                             <li><a href="/">MUSIC</a></li>
