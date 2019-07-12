@@ -9,6 +9,7 @@ class NavBar extends Component {
                 <nav className="navigationBar">
                     <div></div>
                     <div className="navbarLogo"><a href="/">LOGO</a></div>
+                    <div className="separator" />
                     <div className="navbarItems">
                         <ul>
                             <li><a href="/">BAND</a></li>
