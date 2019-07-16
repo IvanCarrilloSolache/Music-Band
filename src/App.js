@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import NavBar from './components/Navbar';
 import MiddleDrawer from './components/Drawer/MiddleDrawer';
+import Backdrop from './components/Backdrop/Backdrop';
 
-function App() {
-  return (
-    <div style={{height: '100%'}}>
-      <NavBar />
-      <MiddleDrawer />
-      <main style={{marginTop: '5vw'}}>
-        <p>Content goes here!</p>
-      </main>
-      
-    </div>
-  );
-}
+class App extends Component {
+  render() {
+    return (
+      <div style={{height: '100%'}}>
+        <NavBar />
+        <MiddleDrawer />
+        <Backdrop />
+        <main style={{marginTop: '5vw'}}>
+          <p>Content goes here!</p>
+        </main>
+      </div>
+    );
+  }
+};
 
 export default App;
