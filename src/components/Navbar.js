@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import DrawerToggleButton from './Drawer/DrawerToggleButton';
 import './Navbar.css';
 
 class NavBar extends Component {
@@ -7,7 +8,9 @@ class NavBar extends Component {
         return (
             <header className="navbar">
                 <nav className="navigationBar">
-                    <div></div>
+                    <div>
+                        <DrawerToggleButton />
+                    </div>
                     <div className="navbarLogo"><a href="/">LOGO</a></div>
                     <div className="separator" />
                     <div className="navbarItems">

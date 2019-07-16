@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <main style={{marginTop: '10vw'}}>
+      <main style={{marginTop: '5vw'}}>
         <p>Content goes here!</p>
       </main>
       
