@@ -1,0 +1,10 @@
+.toggle-button {
+    height: 23px;
+    width: 35px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.toggle-button:focus{
+    outline: none;
+}
