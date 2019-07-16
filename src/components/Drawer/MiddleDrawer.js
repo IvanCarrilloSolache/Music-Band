@@ -1,7 +1,8 @@
 import React from 'react';
+import './MiddleDrawer.css';
 
 const middleDrawer = props => (
-    <nav className="middle-Drawer">
+    <nav className="middle-drawer">
         <ul>
             <li><a href="/">BAND</a></li>
             <li><a href="/">MUSIC</a></li>
