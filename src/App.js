@@ -4,6 +4,7 @@ import NavBar from './components/Navbar';
 import MiddleDrawer from './components/Drawer/MiddleDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
+
 class App extends Component {
   // decides whether the middledrawer is visible or not
   state = {
@@ -17,11 +18,19 @@ class App extends Component {
   };
 
   render() {
+    let middleDrawer;;
+    let backdrop;
+
+    if (this.state.middleDrawerOpen) {
+      middleDrawer = <MiddleDrawer />
+      backdrop = <Backdrop /> 
+    }
+
     return (
       <div style={{height: '100%'}}>
         <NavBar />
-        <MiddleDrawer />
-        <Backdrop />
+        {middleDrawer}
+        {backdrop}
         <main style={{marginTop: '5vw'}}>
           <p>Content goes here!</p>
         </main>
