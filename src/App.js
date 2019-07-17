@@ -18,6 +18,10 @@ class App extends Component {
       return {middleDrawerOpen: !prevState.middleDrawerOpen};
     });
   };
+  //response to the backdrop when clicked
+  backdropClickHandler = () => {
+    this.setState({middleDrawerOpen: false});
+  }
 
   render() {
     //make variables to decides whether middleDrawer/backdrop are shown
@@ -26,7 +30,7 @@ class App extends Component {
     // check if middleDrawerOpen is open to display close
     if (this.state.middleDrawerOpen) {
       middleDrawer = <MiddleDrawer />
-      backdrop = <Backdrop /> 
+      backdrop = <Backdrop click={this.backdropClickHandler} /> 
     }
 
     return (
