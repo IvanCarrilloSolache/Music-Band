@@ -1,10 +1,36 @@
 .middle-drawer {
     height: 100%;
-    background: white;
+    background: transparent;
     box-shadow: 2px 8px 5px rgba(0, 0, 0, 5);
     position: fixed;
     top: 0;
     left: 0;
-    width: 400px;
+    width: 70%;
+    max-width: 400px;
     z-index: 200;
+}
+/* the way text is display*/
+.middle-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.middle-drawer li {
+    margin: 0.5rem 0;
+}
+/* removes text lines */
+.middle-drawer a {
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.middle-drawer a:hover,
+.middle-drawer a:active {
+    font-weight: 600;
+    color: black;
 }
