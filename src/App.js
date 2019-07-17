@@ -5,6 +5,17 @@ import MiddleDrawer from './components/Drawer/MiddleDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 
 class App extends Component {
+  // decides whether the middledrawer is visible or not
+  state = {
+    MiddleDrawerOpen: false
+  }
+  // response to the middledrawer when clicked 
+  drawerToggleClickHandler = () => {
+    this.setState((prevState) => {
+      return {middleDrawerOpen: !prevState.middleDrawerOpen};
+    });
+  };
+
   render() {
     return (
       <div style={{height: '100%'}}>
