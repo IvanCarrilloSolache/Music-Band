@@ -25,18 +25,16 @@ class App extends Component {
 
   render() {
     //make variables to decides whether middleDrawer/backdrop are shown
-    let middleDrawer;
     let backdrop;
     // check if middleDrawerOpen is open to display close
     if (this.state.middleDrawerOpen) {
-      middleDrawer = <MiddleDrawer />
       backdrop = <Backdrop click={this.backdropClickHandler} /> 
     }
 
     return (
       <div style={{height: '100%'}}>
         <NavBar drawerClickHandler={this.drawerToggleClickHandler} />
-        {middleDrawer}
+        <MiddleDrawer show={this.state.middleDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '5vw'}}>
           <p>Content goes here!</p>

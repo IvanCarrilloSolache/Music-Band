@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import DrawerToggleButton from './Drawer/DrawerToggleButton';
 import './Navbar.css';
