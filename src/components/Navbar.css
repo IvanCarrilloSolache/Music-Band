@@ -56,4 +56,7 @@
     .navbarToggleButton {
         display: none;
     }
+    .navbarLogo {
+        margin-left: 0;
+    }
 }
