@@ -3,7 +3,7 @@
     top: 0;
     left:0;
     width: 100%;
-    background: gray;
+    background: transparent;
     height: 5vw;
 }
 /* items position*/ 
@@ -16,7 +16,7 @@
 .navbarLogo {
     margin-left: 0.5rem;
 }
-/* font zise*/ 
+/* logo font zise*/ 
 .navbarLogo a {
     color: white;
     text-decoration: none;
@@ -39,12 +39,13 @@
 }
 
 .navbarItems a {
-    color: white;
+    font-size: 13px;
+    color: rgba(247, 240, 240, 0.705);
     text-decoration: none;
 }
 .navbarItems a:hover, 
 .navbarItems a:active {
-    color: #fa923f;
+    color: rgb(247, 240, 240);
 }
 
 @media (max-width: 768px) {

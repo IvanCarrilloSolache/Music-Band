@@ -1,5 +1,5 @@
 .middle-drawer {
-    height: 50%;
+    height: 55%;
     background: transparent;
     box-shadow: 1px 0px 7px rgba(0, 0, 0, 5);
     position: fixed;
@@ -20,24 +20,23 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    align-items: center; 
 }
 
 .middle-drawer li {
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
+    margin-top: 26px;
 }
 /* removes text lines */
 .middle-drawer a {
-    font-weight: 200;
-    color: black;
+    color: rgba(247, 240, 240, 0.705);
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .middle-drawer a:hover,
 .middle-drawer a:active {
-    font-weight: 600;
-    color: black;
+    color: rgb(247, 240, 240);
 }
 
 @media (min-width: 769px) {

@@ -15,6 +15,10 @@
 }
 .toggle-button_line {
     width: 27px;
-    height: 2px;
-    background: white;
+    height: 3px;
+    background: rgba(247, 240, 240, 0.705);
+}
+.toggle-button_line:hover,
+.toggle-button_line:active {
+    background: rgb(247, 240, 240);
 }
