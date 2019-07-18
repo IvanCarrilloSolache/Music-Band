@@ -6,7 +6,7 @@ import './Navbar.css';
 const NavBar = props => (
     <header className="navbar">
         <nav className="navigationBar">
-            <div>
+            <div className="navbarToggleButton">
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
             <div className="navbarLogo"><a href="/">LOGO</a></div>
