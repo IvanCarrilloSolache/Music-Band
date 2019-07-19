@@ -24,7 +24,7 @@
 }
 /* separates items from logo*/
 .separator {
-    flex: 1;
+    flex: 0.8;
 }
 /*items aligment*/ 
 .navbarItems ul {

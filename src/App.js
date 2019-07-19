@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './components/Navbar';
 import MiddleDrawer from './components/Drawer/MiddleDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
-
+import MainHeadline from './components/MainHeadline';
 
 class App extends Component {
   //decides whether the middledrawer is visible or not
@@ -37,7 +37,7 @@ class App extends Component {
         <MiddleDrawer show={this.state.middleDrawerOpen} />
         {backdrop}
         <main style={{marginTop: '5vw'}}>
-          <p>Content goes here!</p>
+          <MainHeadline />
         </main>
       </div>
     );
