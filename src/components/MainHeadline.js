@@ -5,7 +5,7 @@ const mainHeadline = props => {
     
     return (  
         <header className="headline-content">
-            <p>nuestro álbum más reciente</p>
+            <p>NUESTRO ÁLBUM MÁS RECIENTE</p>
             <h1>FORTALEZA</h1>
             <div>
                 <button>Echale un vistazo</button>
