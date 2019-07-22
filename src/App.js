@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
 import NavBar from './components/Navbar';
 import MiddleDrawer from './components/Drawer/MiddleDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Routes from "./components/Routes";
+
+import './App.css';
 
 class App extends Component {
   //decides whether the middledrawer is visible or not
