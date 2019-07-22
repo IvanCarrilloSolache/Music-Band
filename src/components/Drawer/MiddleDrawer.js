@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
+
 import './MiddleDrawer.css';
 
 const middleDrawer = props => {
@@ -9,11 +11,11 @@ const middleDrawer = props => {
     return (
     <nav className={drawerClasses}>
         <ul>
-            <li><a href="/">BAND</a></li>
-            <li><a href="/">MUSIC</a></li>
-            <li><a href="/">TOUR</a></li>
-            <li><a href="/">GALLERY</a></li>
-            <li><a href="/">CONTACT</a></li>
+            <li><NavLink to="/Band">BAND</NavLink></li>
+            <li><NavLink to="/Music">MUSIC</NavLink></li>
+            <li><NavLink to="/Tour">TOUR</NavLink></li>
+            <li><NavLink to="/Gallery">GALLERY</NavLink></li>
+            <li><NavLink to="/Contact">CONTACT</NavLink></li>
         </ul>
     </nav>
     );
