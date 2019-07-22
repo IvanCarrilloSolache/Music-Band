@@ -1,6 +1,7 @@
 import React from 'react';
 
 import DrawerToggleButton from './Drawer/DrawerToggleButton';
+
 import './Navbar.css';
 
 const NavBar = props => (
