@@ -1,7 +1,7 @@
 import React from 'react';
-import "./MainHeadline.css"
+import "./Home.css"
 
-const mainHeadline = props => {
+const Home = props => {
     
     return (  
         <header className="headline-content">
@@ -15,4 +15,4 @@ const mainHeadline = props => {
     );
 };
 
-export default mainHeadline;
+export default Home;
