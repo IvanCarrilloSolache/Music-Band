@@ -4,7 +4,7 @@ import MiddleDrawer from './Drawer/MiddleDrawer';
 import Backdrop from './Backdrop/Backdrop';
 import Home from "./containers/Home";
 import Band from "./containers/Band";
-import Music from "./containers/Music";
+import Music from "./containers/Music/Music";
 import Tour from "./containers/Tour";
 import Gallery from "./containers/Gallery";
 import Contact from "./containers/Contact";
