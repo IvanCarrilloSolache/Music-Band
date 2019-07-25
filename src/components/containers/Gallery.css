@@ -1,0 +1,15 @@
+.carousel {
+    width:900px;
+  height:500px;
+  margin: auto;
+    
+}
+.image-oriented {
+    object-fit: scale-down;
+}
+@media (max-width: 900px) {
+    .carousel {
+      width:auto;
+      height:auto;
+    }
+}
