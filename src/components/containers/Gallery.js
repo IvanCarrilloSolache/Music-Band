@@ -5,7 +5,7 @@ import { images } from "./images";
 const GalleryComp = props => {
     const [index, setIndex] = React.useState(0)
     return ( 
-        <Gallery index={0}>
+        <Gallery index={index} onRequestChange={i => { setIndex(i);}}>
             {images.map(image => (<GalleryImage src={image} />))}
         </Gallery>
     )
