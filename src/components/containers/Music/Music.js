@@ -18,6 +18,22 @@ const Music = () => (
                     <p>album details</p>
                 </div>
             </div>
+            <div className="album-details">
+            <div className="grid-item"><p>album</p><h2>album name</h2></div>
+            <div className="grid-item"><p>album</p><h2>album name</h2></div>
+            <div className="grid-item"><p>album</p><h2>album name</h2></div>  
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            <div className="grid-item"><h4>song title</h4><p>album title</p><p>song length</p></div>
+            
+            
+        </div>
             
         </div>
     </div>

@@ -1,7 +1,22 @@
 .feauture-track {
-    color: white;
+    color: black;
     display: grid;
     grid-gap: 20px 70px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 10px;
 }
+.album-details {
+    color: red;
+      display: grid;
+      grid-gap: 20px 70px;
+      grid-template-columns: auto auto auto;
+      padding: 10px;
+    }
+    .grid-item {
+    
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+      }
+     
